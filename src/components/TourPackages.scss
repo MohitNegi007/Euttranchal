@@ -1,0 +1,22 @@
+.TourPackages {
+  margin: 10px 100px 0 100px;
+  @media screen and (max-width: 850px) {
+    margin: 0 0 0 0;
+  }
+  h1 {
+    text-align: center;
+    color: olivedrab;
+  }
+  p {
+    text-align: center;
+  }
+  .tourCol1 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+  }
+}

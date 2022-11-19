@@ -1,0 +1,51 @@
+.productCard {
+  margin: -15px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(172, 169, 169, 0.266);
+  flex-grow: 1;
+  height: 400px;
+  overflow: hidden;
+  width: 15%;
+  @media screen and (max-width: 840px) {
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .productBtn {
+    margin: 4px 0 10px 0;
+    border: 1px solid orangered;
+    height: 25px;
+    width: 250px;
+    background-color: transparent;
+    color: orangered;
+    font-size: 15px;
+    &:hover {
+      color: white;
+      background: rgba(255, 68, 0, 0.611);
+      cursor: pointer;
+    }
+  }
+  img {
+    object-fit: contain;
+    height: 250px;
+    width: 400px;
+    @media screen and (max-width: 840px) {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  h1 {
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    margin: 0 20px 0 20px;
+    font-size: 18px;
+  }
+}

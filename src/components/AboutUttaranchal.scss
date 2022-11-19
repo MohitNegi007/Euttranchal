@@ -1,0 +1,71 @@
+.AboutUttaranchal {
+  margin: 20px 100px 0 100px;
+
+  @media screen and (max-width: 850px) {
+    margin: 180px 0 0 0;
+  }
+  .AboutUttaranchal1 {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+    img {
+      height: 200px;
+      width: 200px;
+
+      @media screen and (max-width: 850px) {
+        padding: 50px;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    p {
+      flex-shrink: 1;
+      span {
+        font-size: 20px;
+        color: blue;
+      }
+      @media screen and (max-width: 850px) {
+        margin: -25px 10px 0 10px;
+      }
+    }
+  }
+  .btnContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+
+    .facebookBtn,
+    .instagramBtn,
+    .twitterBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 4px 0 0 0;
+      color: white;
+      background-color: rgba(0, 0, 255, 0.704);
+      border: none;
+      height: 30px;
+      width: 470px;
+      text-align: center;
+      cursor: pointer;
+      span {
+        font-size: 20px;
+      }
+    }
+    .instagramBtn {
+      background-color: brown;
+    }
+    .twitterBtn {
+      background-color: rgb(73, 190, 229);
+    }
+  }
+}

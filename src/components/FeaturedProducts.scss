@@ -1,0 +1,24 @@
+.FeaturedProducts {
+  margin: 10px 100px 0 100px;
+  @media screen and (max-width: 850px) {
+    margin: 0 0 0 0;
+  }
+  .FeaturedProductHeading {
+    text-align: center;
+    color: olivedrab;
+    margin: 0 0 20px 0;
+    @media screen and (max-width: 850px) {
+      margin: 0 0 0 0;
+    }
+  }
+
+  .productCol1 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+  }
+}

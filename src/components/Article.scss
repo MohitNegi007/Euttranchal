@@ -1,0 +1,29 @@
+.article {
+  margin: 10px 100px 0 100px;
+  @media screen and (max-width: 850px) {
+    margin: 300px 0 0 0;
+  }
+  h1 {
+    color: orangered;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .article1 {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+  }
+  .article2 {
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+  }
+}

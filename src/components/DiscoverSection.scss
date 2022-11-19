@@ -1,0 +1,48 @@
+.discoverSection {
+  margin: 100px 100px 100px 100px;
+  @media screen and (max-width: 800px) {
+    margin: 0 0 0 0;
+  }
+  .discoverSection1 {
+    display: flex;
+    margin-top: 15px;
+    height: 250px;
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+    }
+
+    img {
+      width: 40%;
+      object-fit: contain;
+      @media screen and (max-width: 850px) {
+        height: 300px;
+        width: 100%;
+      }
+    }
+    .discoverSectionText {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: orangered;
+      width: 50%;
+
+      .linkSection {
+        display: flex;
+        gap: 40px;
+        a {
+          font-size: 20px;
+          &:hover {
+            border-bottom: 1px solid orangered;
+          }
+        }
+      }
+      @media screen and (max-width: 850px) {
+        height: 300px;
+        width: 100%;
+      }
+    }
+  }
+}
